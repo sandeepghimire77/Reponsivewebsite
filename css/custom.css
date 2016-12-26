@@ -1,5 +1,37 @@
 body {
-    font-family: "open-sans";
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* headers part */
+h1,h2,h3,h4,h5, {
+
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*
+ containers
+*/
+.container {
+    padding: 40px 20px ;
+
+    max-width: 100%;
+
+
+}
+/* here we put container -spacy for cool features . like more area on top or button or bla bla bla */
+.container-spacy {
+    padding: 80px 20px;
+
+}
+
+/* background */
+.background-orange {
+    background-color:#f8bc3b;
+}
+header #main {
+
 
 }
 
