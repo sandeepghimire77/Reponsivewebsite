@@ -78,11 +78,13 @@ header#main {
 header#main .brand a {
     display:block;
     font-family: "Pacifico";
-    /* font-family: 'Tangerine', serif; */
+
+   /* font-family: 'Tangerine', serif; */
 
     font-size:2em;
     color:#393f4a;
     margin-bottom:20px;
+
 }
 
 /*
@@ -125,13 +127,13 @@ nav#main ul li a:not(.button) {
     padding:14px 30px;
     border-radius:5px;
 }
-.button-primary,
+.button-primary,  /*this done then nothing happens . no hover reaction ..just for fun */
 .button-primary:hover {
     background-color:#3a3a3a;
     color:#fff;
 }
 
-.button-secondary,
+.button-secondary, /*this done then nothing happens . no hover reaction ..just for fun */
 .button-secondary:hover {
     background-color:#fff;
     color:#3a3a3a;
@@ -150,6 +152,87 @@ nav#main ul li a:not(.button) {
     font-weight:900;
     line-height:70px;
     margin-bottom:40px;
+}
+/*
+** Features
+*/
+
+.features {
+    text-align:center;
+}
+
+.features h5 {
+    font-weight:600;
+    font-size:1.4em;
+}
+
+.features p {
+    font-size:80%;
+    margin-bottom:40px;
+}
+
+.features img {
+    margin-bottom:20px;
+}
+
+/*
+** Recent
+*/
+
+.recent {
+    text-align:center;
+}
+
+.recent h2 {
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing:3px;
+}
+
+.recent p {
+    margin-bottom:60px;
+    color:#96eaba;
+}
+
+.recent .item {
+    padding:100px 0;
+    margin-top:30px;
+}
+
+.recent ul li a {
+    color:#fff;
+    border:2px solid transparent;
+    padding:8px 20px;
+    border-radius:5px;
+    font-weight:600;
+}
+
+.recent ul li a:hover {
+    border:2px solid #fff;
+}
+
+.recent ul li.selected a {
+    background:#fff;
+    color:#27ae60;
+}
+
+.recent .show-more {
+    margin-top:40px;
+    font-weight:600;
+}
+
+/*
+** Lists
+*/
+
+.inline-list {
+    list-style-type:none;
+}
+
+.inline-list li {
+    display:inline-block;
+    margin:0 20px;
+    margin-bottom:20px;
 }
 
 
