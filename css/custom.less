@@ -1,0 +1,247 @@
+@font-opensanssarif: 'open sans ', sans-sarif;
+@fontlatosans-sarif: 'lato',sans-sarif;
+@fontpacifico: 'pacifico';
+
+
+body {
+  font-family: @font-opensanssarif;
+}
+h1,h2,h3,h4,h5 {
+  font-family: @fontlatosans-sarif;
+}
+
+
+
+
+/* header */
+header#main {
+  margin-bottom: 40px; /* set the marginl button . also imp features */
+
+  .brand a {
+    display: block;
+    font-family: @fontpacifico;
+
+    /* font-family: 'Tangerine', serif; */
+
+    font-size: 2em;
+    color: #393f4a;
+    margin-bottom: 20px;
+
+  }
+}
+/*
+ containers
+*/
+.container {
+  padding: 40px 20px ;
+
+  max-width: 100%;
+
+
+}
+/* here we put container -spacy for cool features . like more area on top or button or bla bla bla */
+.container-spacy {
+  padding: 80px 20px;
+
+}
+
+/*
+** Nav
+*/
+
+nav#main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  li:last-child {
+    margin-right: 0;
+  }
+
+  li a {
+    font-size: 78%;
+    text-transform: uppercase;
+    font-weight: 600; /* this one is vvi ...yesle text halka weighty dekhauna kaam lagcha */
+
+  }
+
+  li a:not(.button) {
+    color: #393f4a;
+  }
+}
+
+/*
+** Buttons
+*/
+
+.button {
+  padding:14px 30px;
+  border-radius:5px;
+}
+.button-primary,  /*this done then nothing happens . no hover reaction ..just for fun */
+.button-primary:hover {
+  background-color:#3a3a3a;
+  color:#fff;
+}
+
+.button-secondary, /*this done then nothing happens . no hover reaction ..just for fun */
+.button-secondary:hover {
+  background-color:#fff;
+  color:#3a3a3a;
+}
+
+
+
+
+
+
+
+
+/* features ko part ma chai nested rules lagu huna sakcha */
+.feature {
+  margin-top:20px;
+
+  h1 {
+    font-size:5.5em;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight:900;
+    line-height:70px;
+    margin-bottom:40px;
+  }
+}
+/* features ma ta jhan majale nested rules lagu garna sakincha */
+
+.features {
+  text-align:center;
+
+
+  h5 {
+    font-weight:600;
+    font-size:1.4em;
+  }
+
+  p {
+    font-size:80%;
+    margin-bottom:40px;
+  }
+
+  img {
+    margin-bottom:20px;
+  }
+}
+
+
+/* also the nested rules in the less  in  recent part */
+
+.recent {
+  text-align:center;
+  h2 {
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing:3px;
+  }
+  p {
+    margin-bottom:60px;
+    color:#96eaba;
+  }
+  .item {
+    padding:100px 0;
+    margin-top:30px;
+  }
+  ul li a {
+    color:#fff;
+    border:2px solid transparent;
+    padding:8px 20px;
+    border-radius:5px;
+    font-weight:600;
+  }
+  ul li a:hover {
+    border:2px solid #fff;
+  }
+  ul li.selected a {
+    background:#fff;
+    color:#27ae60;
+  }
+  .show-more {
+    margin-top:40px;
+    font-weight:600;
+  }
+
+
+}
+
+/* lists part */
+.inline-list {
+  list-style-type:none;
+  li {
+    display:inline-block;
+    margin:0 20px;
+    margin-bottom:20px;
+  }
+}
+
+
+
+
+/* just the simple css */
+/* background */
+.background-orange {
+  background-color:#f8bc3b;
+}
+
+.background-green {
+  background-color:#27ae60;
+}
+
+.background-grey {
+  background-color:#3a3a3a;
+}
+
+.background-white {
+  background-color:#fff;
+}
+
+.background-red {
+  background-color:#db5940;
+}
+
+.background-yellow {
+  background-color:#fec400;
+}
+
+.background-baby-blue {
+  background-color:#7ecefd;
+}
+
+.background-pale-blue {
+  background-color:#d1e1ed;
+}
+
+.background-slate-blue {
+  background-color:#2c3e50;
+}
+
+.background-midnight {
+  background-color:#1f1f1f;
+}
+
+.background-blue {
+  background-color:#028ca6;
+}
+
+
+
+
+
+
+
+
+
+
